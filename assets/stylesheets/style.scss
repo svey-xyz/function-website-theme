@@ -17,13 +17,11 @@ Version: 1.3.0
 @import "base/elements/*";
 
 @import "modules/backgrounds/*";
-@import "modules/bars/*";
 @import "modules/blocks/*";
 @import "modules/buttons/*";
 @import "modules/cards/*";
 @import "modules/carousels/*";
 @import "modules/content/*";
-@import "modules/drawers/*";
 @import "modules/embeds/*";
 @import "modules/footers/*";
 @import "modules/grids/*";
@@ -38,5 +36,4 @@ Version: 1.3.0
 
 // Layouts
 @import "layouts/pages/*";
-@import "layouts/pages/max-ex-25/*";
 @import "layouts/*";

@@ -977,34 +977,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/stylesheets\/layouts\/pages\/max-ex-25\/_max-ex-25-page.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/layouts\/pages\/max-ex-25\/_max-ex-25-page.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/layouts\/pages\/max-ex-25\/_max-ex-25-splash-page.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/layouts\/pages\/max-ex-25\/_max-ex-25-splash-page.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/assets\/stylesheets\/modules\/backgrounds\/_frame-background.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1028,20 +1000,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/bars\/_carousel-progress-bar.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/bars\/_max-ex-25-app-bar.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/bars\/_max-ex-25-app-bar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1355,34 +1313,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/stylesheets\/modules\/drawers\/__drawer.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/drawers\/__drawer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/drawers\/_max-ex-25-drawer.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/drawers\/_max-ex-25-drawer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/assets\/stylesheets\/modules\/embeds\/__embed.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1448,62 +1378,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/headers\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-launch-header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-launch-header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-local-header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-local-header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-page-header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-page-header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-splash-header.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/headers\/_max-ex-25-splash-header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1709,62 +1583,6 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
-    "\/page-templates\/max-ex-25-custom.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-custom.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex-25-grid.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-grid.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex-25-launch.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-launch.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex-25-list.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-list.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex-25-side.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-side.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex-25-splash.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex-25-splash.php",
-      "oF" : 0
-    },
-    "\/page-templates\/max-ex.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/page-templates\/max-ex.php",
-      "oF" : 0
-    },
     "\/page-templates\/page.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1833,14 +1651,6 @@
       "oAP" : "\/style-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/template-parts\/bars\/max-ex-25-app-bar.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/bars\/max-ex-25-app-bar.php",
-      "oF" : 0
     },
     "\/template-parts\/blocks\/blocks.php" : {
       "cB" : 0,
@@ -2026,14 +1836,6 @@
       "oAP" : "\/template-parts\/carousels\/tiles-carousel.php",
       "oF" : 0
     },
-    "\/template-parts\/drawers\/max-ex-25-drawer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/drawers\/max-ex-25-drawer.php",
-      "oF" : 0
-    },
     "\/template-parts\/embeds\/embed.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2064,22 +1866,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/grids\/project-cards-grid.php",
-      "oF" : 0
-    },
-    "\/template-parts\/headers\/max-ex-25-local-header.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/headers\/max-ex-25-local-header.php",
-      "oF" : 0
-    },
-    "\/template-parts\/headers\/max-ex-25-page-header.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/headers\/max-ex-25-page-header.php",
       "oF" : 0
     },
     "\/template-parts\/headers\/site-header.php" : {
