@@ -34,7 +34,7 @@ $(document).ready(function() {
             }
         }
     });
-    $.fn.pageTransition('in');
+    jQuery.fn.pageTransition('in');
 
     ////
     // Apply page transitions to links from the header and footer menus.

@@ -1,137 +1,98 @@
-//
-// Image/copy split block
-//
+	//
+	// Image/copy split block
+	//
 
 .block.image-copy-split{
-  font-size: 0;
-  display: flex;
-  
-  @include media("<=tablet") {
-    display: block;
-  }
-  
-  @include media("<=mobile") {
-    margin: $gutter-mobile;
-  }
-  
-  .max-width-container{
-	  display: flex;
-	  justify-content: space-between;
-  &.align-image-left {
+	font-size: 0;
+	display: flex;
+	
+	@include media("<=tablet") {
+		display: block;
+	}
+	
+	.max-width-container{
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row nowrap;
 
-    .column {
-      &.copy { order: 2; }
-      &.image { order: 1; }
-    }
-  }
-  
-  &.align-image-right {
+		font-size: 0;
 
-    .column {
-      &.copy { order: 1; }
-      &.image { order: 2; }
-    }
-  }
+		@include media("<=tablet") {
+			display: block;
+		}
 
-  
-  .column {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
-    
-    @include media("<=tablet") {
-      width: 100%;
-    }
-      
-    &.image {
+		&.align-image-left {
 
-      img {
-        width: 100%;
-        display: block;
-        // margin: 0 auto;
-        max-height: 80vh;
-        object-fit: contain;
-      }
-    }
-      
-    &.copy {
-      margin: 0;
-        
-      &.left {
-        
-        margin: 0;
-    
-      }
-        
-      &.right {
-        
-        margin: 0;
-        
-      }
-        
-      h2 {
-        margin: 0 0 24px 0;
+			.column {
+				&.copy {
+					order: 2;
+					padding-left: $gutter / 2;
+				}
+				&.image {
+					order: 1;
+					padding-right: $gutter / 2;
+				}
+			}
+		}
+		
+		&.align-image-right {
 
-        &:last-child { margin-bottom: 0; }
-        
-        @include media("<=tablet") {
-          margin: $gutter-mobile 0 24px;
-        }
-        
-        &.right {
+			.column {
+				&.copy {
+					order: 1;
+					padding-right: $gutter / 2;
+				}
+				&.image {
+					order: 2;
+					padding-left: $gutter / 2;
+				}
+			}
+		}
 
-          @include media("<=tablet") {
-            margin: 24px 0;
-          }
-        }          
-      }
+		
+		.column {
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;				
 
-      p {
-        margin: 0 0 24px 0;
-        font-size: 20px;
+			@include media("<=tablet") {
+				width: 100%;
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+			
+			&.image {
 
-        &:last-child { margin-bottom: 0; }
-      
-        &.col-1 { column-count: 1; }
-        &.col-2 {
-          column-count: 2;
-          
-          @include media("<=desktop") {
-            column-count: 1;
-          }
-        }
-        &.col-3 {
-          column-count: 3;
+				img {
+					width: 100%;
+					display: block;
+					object-fit: contain;
+				}
+			}
+			
+			&.copy {
+				@include media("<=tablet") {
+					padding-top: $gutter-mobile;;
+				}
 
-          @include media("<=mobile") {
-            column-count: 1;
-          }
-        }
-        
-        @include media("<=tablet") {
-          margin: 0;
-        }
-        
-        &.right {
-          @include media("<=tablet") {
-            margin: 0;
-          }
-        }
-        
-        &.aboveheadline {
-          margin: 0 0 24px;
-          text-transform: uppercase;
-          letter-spacing: 3px;
-          color: $midgrey;
-          font-size: 13px;
-          column-count: 1;
-          
-          @include media("<=tablet"){
-            font-size: 11px;
-          }
-        }
-      }
-    }
-  }
-}
+				h2 {
+					&:last-child { margin-bottom: 0; }		       
+				}
+
+				p {	
+					&.aboveheadline {
+						text-transform: uppercase;
+						letter-spacing: 3px;
+						color: $midgrey;
+						font-size: 13px;
+						column-count: 1;
+						
+						@include media("<=tablet"){
+							font-size: 11px;
+						}
+					}
+				}
+			}
+		}
+	}
 }

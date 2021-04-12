@@ -30,12 +30,12 @@ $portal-item-size: calc(100% / 3);
 			cursor: pointer;
 
 			&:hover .image-cover {
-				opacity: 0.8;
+				opacity: 0.7;
 			}
 
 			&:hover .portal-title {
 				text-decoration: underline;
-				color:#222222;    
+				color:#222222;
 				text-shadow: 1px 0 #222222;
 				letter-spacing:1px;
 				font-weight:bold;
@@ -104,7 +104,7 @@ $portal-item-size: calc(100% / 3);
 				margin-left: -100%;
 				
 				background-color: #fff;
-				opacity: 0.9;
+				opacity: 0.8;
 			}
 
 			.portal-text {
@@ -127,8 +127,9 @@ $portal-item-size: calc(100% / 3);
 				z-index: 10;
 
 				.portal-title {
+					font-family: $heading !important;
 					text-align: center;
-					font-weight: 900;
+					font-weight: 700;
 					word-break: break-word;
 					word-spacing: 100vw;
 				}

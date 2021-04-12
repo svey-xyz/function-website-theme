@@ -11,5 +11,6 @@
   <code>
     <?php wp_footer() ?>
   </code>
+  <script type="text/javascript" src="https://cdn.ascendapplications.com/plugin.js"></script>
 </body>
 </html>

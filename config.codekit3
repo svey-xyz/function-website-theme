@@ -7,7 +7,7 @@
       "uuidString" : "1483E305-AC4F-4925-BBFB-BC75A70C27EE"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -471,13 +471,13 @@
       "sC" : 0,
       "tS" : 0
     },
-    "\/assets\/scripts\/app\/globals\/fx.js" : {
+    "\/assets\/scripts\/app\/globals\/fx-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/scripts\/app\/globals\/fx-min.js",
+      "oA" : 0,
+      "oAP" : "\/assets\/scripts\/app\/globals\/fx-min-min.js",
       "oF" : 0,
       "sC" : 0,
       "tS" : 0
@@ -1019,7 +1019,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/stylesheets\/modules\/blocks\/_event-listing.scss" : {
+    "\/assets\/stylesheets\/modules\/blocks\/_download-group.scss" : {
       "aP" : 1,
       "bl" : 0,
       "dP" : 10,
@@ -1027,35 +1027,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_event-listing.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/blocks\/_exhibition.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_exhibition.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/blocks\/_featured-post.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_featured-post.css",
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_download-group.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1084,20 +1056,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_full-width-image.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/blocks\/_hero-inner.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_hero-inner.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1159,34 +1117,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/assets\/stylesheets\/modules\/blocks\/_sponsors.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_sponsors.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/assets\/stylesheets\/modules\/blocks\/_square-image-gallery.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_square-image-gallery.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/assets\/stylesheets\/modules\/blocks\/_video.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1196,6 +1126,90 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_video.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_event-listing.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_event-listing.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_exhibition.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_exhibition.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_featured-post.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_featured-post.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_hero-inner.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_hero-inner.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_sponsors.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_sponsors.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/old\/_square-image-gallery.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/old\/_square-image-gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1509,6 +1523,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/stylesheets\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/stylesheets\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/stylesheets\/style.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -1609,12 +1635,12 @@
     },
     "\/screenshot.png" : {
       "ft" : 32768,
-      "iS" : 762562,
+      "iS" : 322109,
       "oA" : 0,
       "oAP" : "\/screenshot.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1640,6 +1666,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1660,12 +1698,12 @@
       "oAP" : "\/template-parts\/blocks\/blocks.php",
       "oF" : 0
     },
-    "\/template-parts\/blocks\/category-listing.php" : {
+    "\/template-parts\/blocks\/download-group.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/category-listing.php",
+      "oAP" : "\/template-parts\/blocks\/download-group.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/dynamic-item-card.php" : {
@@ -1674,38 +1712,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/blocks\/dynamic-item-card.php",
-      "oF" : 0
-    },
-    "\/template-parts\/blocks\/event-listing.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/event-listing.php",
-      "oF" : 0
-    },
-    "\/template-parts\/blocks\/exhibition.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/exhibition.php",
-      "oF" : 0
-    },
-    "\/template-parts\/blocks\/facebook-block.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/facebook-block.php",
-      "oF" : 0
-    },
-    "\/template-parts\/blocks\/featured-post.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/featured-post.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/full-width-gallery.php" : {
@@ -1724,14 +1730,6 @@
       "oAP" : "\/template-parts\/blocks\/full-width-image.php",
       "oF" : 0
     },
-    "\/template-parts\/blocks\/hero-inner.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/hero-inner.php",
-      "oF" : 0
-    },
     "\/template-parts\/blocks\/hero.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1748,6 +1746,62 @@
       "oAP" : "\/template-parts\/blocks\/image-copy-split.php",
       "oF" : 0
     },
+    "\/template-parts\/blocks\/old\/category-listing.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/category-listing.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/event-listing.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/event-listing.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/exhibition.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/exhibition.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/facebook-block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/facebook-block.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/featured-post.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/featured-post.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/hero-inner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/hero-inner.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/old\/sponsors.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/old\/sponsors.php",
+      "oF" : 0
+    },
     "\/template-parts\/blocks\/paragraph-multi-column.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1762,14 +1816,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/blocks\/section-header.php",
-      "oF" : 0
-    },
-    "\/template-parts\/blocks\/sponsors.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/template-parts\/blocks\/sponsors.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/square-image-gallery.php" : {
@@ -2246,7 +2292,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -2391,7 +2437,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -4005,6 +4051,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -4039,6 +4088,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

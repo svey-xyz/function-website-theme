@@ -1,0 +1,20 @@
+.download-group {
+	.download-links {
+		li{
+			padding-left: $gutter;
+			margin-bottom: $padding;
+
+			@include media("<=tablet") {
+				padding-left: $gutter-mobile;
+			}
+
+			a {
+				font-size: 24px;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

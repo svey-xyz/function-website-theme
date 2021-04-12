@@ -28,63 +28,24 @@
 			?>
 
 			<li class="<?php print trim($classes); ?>">
-
-				<?php if ($menu_class == "mainFunctionNav"): ?>
-
-					<?php if($depth == true): ?>
+				<a href="<?php print $url; ?>" class="<?php if($menu_class == 'images'){ print 'image';} ?>" <?php if($target){ print $target; }; ?>>
+					<?php if($menu_class == 'images'): ?>
 						<?php
-						$has_sub_menu = false;
-						foreach($menu_items as $key => $sub_menu_item ){
-							if($sub_menu_item->menu_item_parent == $menu_item->ID){
-								$has_sub_menu = true;
-							}
-						}
+							$dark_image = $logos[$menu_item->classes[0] . '_logo_black'];
+							$light_image = $logos[$menu_item->classes[0] . '_logo_white'];
 						?>
-						<?php if($has_sub_menu): ?>
-							<p class="menu-header"><?php print $title; ?></p>
-							<ul class="sub-menu">
-							<?php
-							foreach($menu_items as $key => $sub_menu_item ){
-								if($sub_menu_item->menu_item_parent == $menu_item->ID):
-									
-									$title = $sub_menu_item->title;
-									$url = $sub_menu_item->url;
-									$target = "";
-									if($sub_menu_item->target){
-										$target = ' target="'.$sub_menu_item->target .'"';
-									}
-								?>
-								<li><a href="<?php print $url; ?>" <?php if($target){ print $target; }; ?>><?php print $title; ?></a></li>
-								<?php endif;
-							}
-							?>
-							</ul>
-						<?php else: ?>
-							<a href="<?php print $url; ?>" <?php if($target){ print $target; }; ?>><?php print $title; ?></a>
-						<?php endif; ?>
+						<img src="<?php print $light_image; ?>" data-dark="<?php print $dark_image; ?>" data-light="<?php print $light_image; ?>"/>
+					<?php elseif($menu_class == 'social'): ?>
+						<?php
+							$menu_item_image_name = $menu_item->classes[0];
+							$menu_item_image_path =  get_template_directory_uri() . '/assets/images/icons/' . $menu_item_image_name . '.svg'; 
+						?>
+						<img src="<?php print $menu_item_image_path; ?>" />
+					<?php else: ?>
+						<?php print $title; ?>
 					<?php endif; ?>
-
-				<?php else: ?>
-						
-					<a href="<?php print $url; ?>" class="<?php if($menu_class == 'images'){ print 'image';} ?>" <?php if($target){ print $target; }; ?>>
-						<?php if($menu_class == 'images'): ?>
-							<?php
-								$dark_image = $logos[$menu_item->classes[0] . '_logo_black'];
-								$light_image = $logos[$menu_item->classes[0] . '_logo_white'];
-							?>
-							<img src="<?php print $light_image; ?>" data-dark="<?php print $dark_image; ?>" data-light="<?php print $light_image; ?>"/>
-						<?php elseif($menu_class == 'social'): ?>
-							<?php
-								$menu_item_image_name = $menu_item->classes[0];
-								$menu_item_image_path =  get_template_directory_uri() . '/assets/images/icons/' . $menu_item_image_name . '.svg'; 
-							?>
-							<img src="<?php print $menu_item_image_path; ?>" />
-						<?php else: ?>
-							<?php print $title; ?>
-						<?php endif; ?>
-					</a>
+				</a>
 					
-				<?php endif; ?>
 			</li>  
 				
         <?php } endforeach; ?>

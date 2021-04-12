@@ -5,7 +5,7 @@
 
 $logos = get_field('logos', 'option');
 ?>
-<div id="header-padding" class="header-padding"></div>
+<div id="header-padding" class="header-padding block"></div>
 
 <header id="header" class="header full-width-wrapper">
   	<div class="columns">

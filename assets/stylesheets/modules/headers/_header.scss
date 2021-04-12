@@ -3,8 +3,10 @@
 //
 
 $header-height: 65px;
+$header-mobile-height: $header-height - $header-height / 10;
 
 #header-padding {
+	display: block;
 	position: relative;
     top: 0;
     left: 0;
@@ -12,7 +14,7 @@ $header-height: 65px;
 	height: $header-height;
 
 	@include media("<=tablet") {
-		height: 0px;
+		height: $header-mobile-height;
 	}
 }
 
@@ -67,7 +69,7 @@ $header-height: 65px;
 
 							@include media("<=tablet") {
 								padding: 15px 0px;
-								height: $header-height - $header-height / 10;
+								height: $header-mobile-height;
 							}
 						}
 					}
@@ -83,9 +85,9 @@ $header-height: 65px;
 						// }
 
 						@include media("<=tablet") {
-								padding: 15px 0px;
-								height: $header-height - $header-height / 10;
-							}
+							padding: 15px 0px;
+							height: $header-mobile-height;
+						}
 						
 						width: $header-height;
 						height: $header-height;
@@ -130,7 +132,7 @@ $header-height: 65px;
 				pointer-events: none;
 
 				@include media("<=tablet") {
-					top: $header-height - $header-height / 10;
+					top: $header-mobile-height;
 				}
 
 				.mainFunctionNav {
@@ -176,7 +178,6 @@ $header-height: 65px;
 							font-size: 36px;
 							color: white;
 							padding: 0 15px;
-							text-decoration: underline;
 							letter-spacing: 3px;
 							line-height: 2;
 							position: relative;
@@ -184,7 +185,8 @@ $header-height: 65px;
 							z-index: 50;
 
 							&:hover {
-								font-weight: 800;
+								// font-weight: 800;
+								text-decoration: underline;
 							}
 
 							&.image {

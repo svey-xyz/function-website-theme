@@ -5,7 +5,8 @@
         $description = $card['description'];
         $button = $card['button'];
         $link = $card['link'];
-        $alignment = $card['alignment'];
+		$alignment = $card['alignment'];
+		if ($alignment == 'auto') { $alignment = get_row_index() % 2 == 0 ? 'left' : 'right'; }
 
         //print print_r($gallery,TRUE);
     ?>

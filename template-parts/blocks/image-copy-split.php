@@ -9,8 +9,8 @@
         $columns = $textgroup['columns'];
         $aboveheadline = $textgroup['above_headline'];
         $alignment = get_sub_field('alignment');
+		if ($alignment == 'auto') { $alignment = get_row_index() % 2 == 0 ? 'left' : 'right'; }
         $block_class = $block_class . ' ' . $alignment;
-        //print print_r($alignment,TRUE);
 ?>
 
 <section id="<?php echo theme_block_handle() . '-' . get_row_index() ?>" class="block full-width-wrapper <?php echo theme_block_handle() ?>">
@@ -38,7 +38,7 @@
 			<h2><?php print $headline; ?></h2>
 
 			<?php if ($copy) : ?>
-				<p class="col-<?php print $columns; ?>"><?php print $copy; ?></p>
+				<p><?php print $copy; ?></p>
 			<?php endif ?>
 
 			<?php if($buttonlabel): ?>

@@ -1,4 +1,3 @@
-// @codekit-append "app/globals/fx.js";
 // @codekit-append "app/globals/header.js";
 // @codekit-append "app/globals/resize.js";
 

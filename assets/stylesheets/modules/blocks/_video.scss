@@ -3,9 +3,5 @@
 //
 
 .block.video {
-  margin: $gutter-half;
 
-  @include media ("<=tablet") {
-    margin: $gutter-mobile;
-  }
 }
