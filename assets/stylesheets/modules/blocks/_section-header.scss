@@ -48,6 +48,30 @@
 			}
 		}
 
+		&.center {
+			flex-flow: column nowrap;
+
+			.column {
+				width: 100%;
+
+				&.headline {
+					margin-left: auto;
+					margin-right: auto;
+					width: $text-width;
+					order: 1;
+					text-align: center;
+				}
+			
+				&.text {
+					margin-left: auto;
+					margin-right: auto;
+					width: $text-width;
+					order: 2;
+					text-align: center;
+				}
+			}
+		}
+
 		&.full {
 			.column {
 				&.headline {

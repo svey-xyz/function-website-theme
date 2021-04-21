@@ -16,10 +16,10 @@
 		</picture>
 	</div>
 
-	<div class="image-cover"></div>
+	<!-- <div class="image-cover"></div> -->
 
 	<div class="portal-text">
-		<h2 class="portal-title"><?php print $title ?></h2>
+		<h3 class="portal-title"><?php print $title ?></h3>
 		<p class="portal-description"><?php print $description ?></p>
 	</div>
 </a>

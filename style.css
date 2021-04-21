@@ -1313,6 +1313,25 @@ a {
       -webkit-order: 1;
               order: 1;
       padding-right: 45px; }
+    .section-header .max-width-container.center {
+      -webkit-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
+      .section-header .max-width-container.center .column {
+        width: 100%; }
+        .section-header .max-width-container.center .column.headline {
+          margin-left: auto;
+          margin-right: auto;
+          width: 65%;
+          -webkit-order: 1;
+                  order: 1;
+          text-align: center; }
+        .section-header .max-width-container.center .column.text {
+          margin-left: auto;
+          margin-right: auto;
+          width: 65%;
+          -webkit-order: 2;
+                  order: 2;
+          text-align: center; }
     .section-header .max-width-container.full .column.headline {
       -webkit-order: 1;
               order: 1;
@@ -1551,6 +1570,18 @@ a {
           margin-bottom: 0; }
         .dynamic-item-card .card .column .card-title-section h2:hover {
           text-decoration: underline; }
+      .dynamic-item-card .card .column .card-title-section h3 {
+        padding-top: 10px;
+        color: #333333;
+        font-size: 20px;
+        font-family: "Avenir Next", sans-serif;
+        font-weight: 500;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-decoration: none; }
       .dynamic-item-card .card .column .card-title-section a.text-link {
         vertical-align: bottom;
         color: #333333;
@@ -1561,7 +1592,7 @@ a {
         .dynamic-item-card .card .column .card-title-section a.text-link:before {
           background: url("assets/images/icons/arrow-right.svg") no-repeat center center; }
       .dynamic-item-card .card .column .card-title-section p {
-        line-height: 1.5;
+        line-height: 1.4;
         display: -webkit-box;
         -webkit-line-clamp: 6;
         -webkit-box-orient: vertical;
@@ -2735,35 +2766,51 @@ main {
   .portal-page .portal-container {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-    -webkit-flex-direction: row;
-            flex-direction: row;
-    height: 100%; }
+    -webkit-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    height: 100%;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    background-color: #222; }
     @media (max-width: 1024px) {
       .portal-page .portal-container {
         -webkit-flex-direction: column;
                 flex-direction: column; } }
     .portal-page .portal-container .portal-item {
-      width: calc(100% / 3);
-      height: 100%;
+      width: 50%;
+      height: 90%;
       display: -webkit-flex;
       display: flex;
-      cursor: pointer; }
-      .portal-page .portal-container .portal-item:hover .image-cover {
-        opacity: 0.7; }
+      position: relative;
+      -webkit-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      cursor: pointer;
+      box-shadow: 0 0px 6px -1px rgba(0, 0, 0, 0.1), 0 0px 5px -1px rgba(0, 0, 0, 0.06);
+      border-radius: 15px;
+      overflow: hidden; }
+      .portal-page .portal-container .portal-item:first-child {
+        margin-left: 2%;
+        margin-right: 1%; }
+      .portal-page .portal-container .portal-item:last-child {
+        margin-left: 1%;
+        margin-right: 2%; }
       .portal-page .portal-container .portal-item:hover .portal-title {
         text-decoration: underline;
         color: #222222;
         text-shadow: 1px 0 #222222;
         letter-spacing: 1px;
         font-weight: bold; }
-      .portal-page .portal-container .portal-item:hover .portal-description {
-        display: block !important; }
       @media (max-width: 1024px) {
         .portal-page .portal-container .portal-item {
-          height: calc(100% / 3);
-          width: 100%; } }
+          width: 95%; }
+          .portal-page .portal-container .portal-item:first-child {
+            margin-top: 2%;
+            margin-bottom: 1%; }
+          .portal-page .portal-container .portal-item:last-child {
+            margin-top: 1%;
+            margin-bottom: 2%; } }
       .portal-page .portal-container .portal-item .background-image {
         position: relative;
         top: 0;
@@ -2781,40 +2828,18 @@ main {
           overflow: hidden;
           height: 100%;
           width: auto; }
-          @media (max-width: 1024px) {
-            .portal-page .portal-container .portal-item .background-image picture {
-              display: block;
-              height: auto; } }
           .portal-page .portal-container .portal-item .background-image picture img {
             max-height: 100%;
             height: 100%;
             width: 100%;
             -o-object-fit: cover;
                object-fit: cover; }
-            @media (max-width: 1024px) {
-              .portal-page .portal-container .portal-item .background-image picture img {
-                height: auto;
-                width: 100%;
-                max-width: 100%;
-                display: block; } }
-      .portal-page .portal-container .portal-item .image-cover {
-        z-index: 10;
-        box-sizing: border-box;
-        -webkit-flex: none;
-                flex: none;
-        width: 100%;
-        height: 100%;
-        margin-left: -100%;
-        background-color: #fff;
-        opacity: 0.8; }
       .portal-page .portal-container .portal-item .portal-text {
         z-index: 10;
         box-sizing: border-box;
-        -webkit-flex: none;
-                flex: none;
-        margin-left: -100%;
-        width: 100%;
-        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        bottom: 0;
         display: -webkit-flex;
         display: flex;
         -webkit-flex-wrap: nowrap;
@@ -2825,23 +2850,34 @@ main {
                 justify-content: center;
         -webkit-align-items: center;
                 align-items: center;
-        padding-left: 32px;
-        padding-right: 32px;
-        z-index: 10; }
+        padding: 32px;
+        z-index: 10;
+        width: 100%;
+        overflow: hidden;
+        max-height: 100%; }
+        @media (max-width: 1024px) {
+          .portal-page .portal-container .portal-item .portal-text {
+            width: 33%;
+            height: 100%;
+            right: 0;
+            min-width: 200px; } }
         .portal-page .portal-container .portal-item .portal-text .portal-title {
+          margin: 0;
           font-family: "Avenir Next", sans-serif !important;
           text-align: center;
           font-weight: 700;
-          word-break: break-word;
-          word-spacing: 100vw; }
+          color: #000; }
         .portal-page .portal-container .portal-item .portal-text .portal-description {
           margin-top: 32px;
           word-break: break-all;
           width: 100%;
           white-space: wrap;
-          display: none;
-          font-weight: 500; }
-
+          font-weight: 500;
+          color: #000;
+          max-width: 500px; }
+          @media (max-width: 1024px) {
+            .portal-page .portal-container .portal-item .portal-text .portal-description {
+              display: none; } }
 .project-layout {
   position: relative;
   padding-top: 80px; }

@@ -2,6 +2,7 @@
         $card = get_sub_field('item-card');
         $image = $card['image'];
         $title = $card['title'];
+		$sub_title = $card['sub_title'];
         $description = $card['description'];
         $button = $card['button'];
         $link = $card['link'];
@@ -25,6 +26,7 @@
 
 			<div class="card-title-section">
 				<a href="<?php print $link; ?>"><h2 class="item-title"><?php print $title ?></h2></a>
+				<?php if ($sub_title): ?><h3 class="item-sub-title"><?php print $sub_title ?></h3><?php endif; ?>
 				<p><?php print $description; ?></p>
 			</div>
 		</div>
