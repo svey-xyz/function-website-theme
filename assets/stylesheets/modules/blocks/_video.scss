@@ -3,5 +3,15 @@
 //
 
 .block.video {
+	.video-heading {
+		h3 {
+			margin: 0;
+			padding-top: $padding;
+		}
+		p {
+			margin: 0;
+			padding-top: $padding / 2;
+		}
+	}
 
 }

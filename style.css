@@ -1356,6 +1356,14 @@ a {
       .section-header .max-width-container .column p:last-child {
         margin-bottom: 0; }
 
+.block.video .video-heading h3 {
+  margin: 0;
+  padding-top: 32px; }
+
+.block.video .video-heading p {
+  margin: 0;
+  padding-top: 16px; }
+
 .button {
   display: inline-block;
   vertical-align: middle;

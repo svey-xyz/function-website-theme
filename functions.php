@@ -25,7 +25,7 @@ if (!function_exists('theme_setup_theme')) {
 
     // featured images
     remove_theme_support('post-thumbnails');
-    //add_theme_support('post-thumbnails');
+    // add_theme_support('post-thumbnails');
 
     // register image sizes
     add_image_size('laptop', 1400, 900); // TODO rename / regenerate 
