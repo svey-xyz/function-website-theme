@@ -1,0 +1,35 @@
+//
+// Full width gallery block
+//
+
+.popup-swiper-gallery {
+	display: flex;
+	opacity: 0;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	background-color: rgba(0,0,0,0.9);
+
+	align-items: center;
+
+	// .full-width-gallery {
+	// 	.swiper-button-prev, .swiper-container-rtl .swiper-button-next, .swiper-button-next, .swiper-container-rtl .swiper-button-prev  {
+	// 		background-image: url('assets/images/icons/arrow-right-white.svg');
+	// 	}
+	// }
+
+	.popup-gallery-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: -$padding;
+		font-size: 22px;
+		font-weight: 700;
+		color: #fff;
+		cursor: pointer;
+	}
+}

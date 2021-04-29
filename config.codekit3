@@ -405,6 +405,28 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/assets\/scripts\/app\/blocks\/masonry-gallery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/app\/blocks\/masonry-gallery-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/assets\/scripts\/app\/blocks\/smooth-scroll-to.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/app\/blocks\/smooth-scroll-to-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/assets\/scripts\/app\/blocks\/square-image-gallery.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -500,6 +522,17 @@
       "mi" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/scripts\/app\/globals\/resize-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
+    },
+    "\/assets\/scripts\/app\/masonry.pkgd.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/scripts\/app\/masonry.pkgd.min-min.js",
       "oF" : 0,
       "sC" : 0,
       "tS" : 0
@@ -1019,6 +1052,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/stylesheets\/modules\/blocks\/_coloured-section.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_coloured-section.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/stylesheets\/modules\/blocks\/_download-group.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1028,6 +1075,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_download-group.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/_embed.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_embed.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1061,6 +1122,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/stylesheets\/modules\/blocks\/_hero-overlay.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_hero-overlay.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/stylesheets\/modules\/blocks\/_hero.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1089,6 +1164,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/stylesheets\/modules\/blocks\/_masonry-gallery.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_masonry-gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/stylesheets\/modules\/blocks\/_paragraph-multi-column.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1103,6 +1192,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/assets\/stylesheets\/modules\/blocks\/_popup-swiper-gallery.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_popup-swiper-gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/assets\/stylesheets\/modules\/blocks\/_section-header.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1112,6 +1215,34 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_section-header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/_sponsors.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_sponsors.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/blocks\/_thumbnail-page-navigation.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/blocks\/_thumbnail-page-navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1252,6 +1383,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/stylesheets\/modules\/cards\/_dynamic-item-card.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/assets\/stylesheets\/modules\/cards\/_masonry-item.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/stylesheets\/modules\/cards\/_masonry-item.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1698,6 +1843,14 @@
       "oAP" : "\/template-parts\/blocks\/blocks.php",
       "oF" : 0
     },
+    "\/template-parts\/blocks\/coloured-section.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/coloured-section.php",
+      "oF" : 0
+    },
     "\/template-parts\/blocks\/download-group.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1712,6 +1865,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/blocks\/dynamic-item-card.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/embed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/embed.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/full-width-gallery.php" : {
@@ -1730,6 +1891,14 @@
       "oAP" : "\/template-parts\/blocks\/full-width-image.php",
       "oF" : 0
     },
+    "\/template-parts\/blocks\/hero-overlay.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/hero-overlay.php",
+      "oF" : 0
+    },
     "\/template-parts\/blocks\/hero.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1744,6 +1913,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/blocks\/image-copy-split.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/masonry-gallery.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/masonry-gallery.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/old\/category-listing.php" : {
@@ -1818,12 +1995,28 @@
       "oAP" : "\/template-parts\/blocks\/section-header.php",
       "oF" : 0
     },
+    "\/template-parts\/blocks\/sponsors.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/sponsors.php",
+      "oF" : 0
+    },
     "\/template-parts\/blocks\/square-image-gallery.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/blocks\/square-image-gallery.php",
+      "oF" : 0
+    },
+    "\/template-parts\/blocks\/thumbnail-page-navigation.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/blocks\/thumbnail-page-navigation.php",
       "oF" : 0
     },
     "\/template-parts\/blocks\/video-vimeo.php" : {
@@ -1856,6 +2049,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/buttons\/menu-button.php",
+      "oF" : 0
+    },
+    "\/template-parts\/cards\/masonry-item.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/cards\/masonry-item.php",
       "oF" : 0
     },
     "\/template-parts\/cards\/portal-item-card.php" : {
@@ -1928,6 +2129,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/images\/linked-image.php",
+      "oF" : 0
+    },
+    "\/template-parts\/images\/masonry-grid.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/images\/masonry-grid.php",
+      "oF" : 0
+    },
+    "\/template-parts\/images\/popup-swiper-gallery.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/images\/popup-swiper-gallery.php",
+      "oF" : 0
+    },
+    "\/template-parts\/images\/swiper-gallery.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/images\/swiper-gallery.php",
       "oF" : 0
     },
     "\/template-parts\/links\/button-link.php" : {

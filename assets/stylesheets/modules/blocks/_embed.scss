@@ -1,0 +1,34 @@
+.embed {
+	.embed-container {
+		display: block;
+		width: 100%;
+		margin: auto;
+		max-width: 1000px;
+
+		.iframe-wrapper {
+			display: block;
+			margin: auto;
+
+			iframe {
+				display: block;
+				margin: auto;
+			}
+		}
+
+		.embed {
+			display: block;
+			margin: auto;
+
+			// center issuu 
+			.issuuembed {
+				display: block;
+				margin: auto;
+			}
+
+			iframe {
+				display: block;
+				margin: auto;
+			}
+		}
+	}
+}
